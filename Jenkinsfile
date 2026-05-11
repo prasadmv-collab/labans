@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Brijesh-ue/MyAnsbileWebApp.git'
+                git branch: 'main', url: 'https://github.com/prasadmv-collab/labans.git'
             }
         }
 
